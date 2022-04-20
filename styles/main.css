@@ -1,0 +1,40 @@
+:root {
+  text-align: justify;
+  color: whitesmoke;
+  background-color: rosybrown;
+  /*background: url("../dev-academy/steps.jpg") center fixed no-repeat;*/
+  background-size: cover;
+  margin: 25px 20vmin 25px;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Updock', cursive;
+  font-size: 15vmin;
+  color: wheat;
+  text-align: center;
+  margin: 25px 12.5vw 25px;
+}
+
+h2 {
+  color: wheat;
+  font-style: italic;
+  text-align: center;
+}
+
+.separation {
+  margin: 100px 0 25px;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+a:hover {
+  text-decoration: underline; /*Underline links when hover*/
+}
