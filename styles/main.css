@@ -5,25 +5,24 @@
   /*background: url("../dev-academy/steps.jpg") center fixed no-repeat;*/
   background-size: cover;
   margin: 25px 20vmin 25px;
+  padding: 0px;
 }
 
 body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.25em;
+}
+
+h1, h2 {
+  color: wheat;
+  text-align: center;
+  
 }
 
 h1 {
   font-family: 'Updock', cursive;
-  font-size: 15vmin;
-  color: wheat;
-  text-align: center;
+  font-size: 5vw;
   margin: 25px 12.5vw 25px;
-}
-
-h2 {
-  color: wheat;
-  font-style: italic;
-  text-align: center;
 }
 
 .separation {
@@ -37,4 +36,30 @@ a {
 
 a:hover {
   text-decoration: underline; /*Underline links when hover*/
+}
+
+.no-margin-padding {
+  margin: 0px;
+  padding: 0px;
+  white-space: pre-line;
+}
+
+#selectors-h1 {
+  font-family: cursive;
+}
+
+.selectors-h2 {
+  text-align: left;
+}
+
+#teacher {
+  color: blue;
+}
+
+.uniform {
+  color: green;
+}
+
+#white-hat {
+  text-decoration: overline white 2px;
 }
