@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <title>CSS Selectors - Class vs. ID</title>
+  </head>
+  <body>
+    <h1 id="selectors-h1">CSS Selectors - Class vs. ID</h1>
+    <p>
+      If you are new to CSS (Cascading Style Sheets) and are asking yourself some of these questions, you have come to the right place.
+      <ul>
+        <li>What are the differences between class and ID selectors?</li>
+        <li>When should I use class or ID?</li>
+        <li>What are the pros and cons?</li>
+      </ul>    
+    </p>
+    <p>
+      In this blog, we are going to talk briefly about CSS selectors, namely class and ID, then we will explore their differences and potential advantage of using one over another.
+    </p>
+    <p>
+      Hopefully by the end of this blog, you will be better equipped with enough information to make your decision about which selector to use.
+    </p>
+    <h2 class="selectors-h2" id="what-css-selectors">What are CSS Selectors?</h2>
+    <p>
+      CSS selectors is, as the name implies, used to select certain elements on a web page and style them differently. For example, you would like to make the color of all the texts written (the <code>p</code> tags) to <span id="blue">blue</span>. They can be divided into five categories: simple, combinator, pseudo-class, pseudo-elements, attribute. However, for the purpose of this blog, we are not going to delve further into this topic. If you are interested, you can read more about them
+      <a href="https://www.w3schools.com/css/css_selectors.asp">here</a>.
+    </p>
+    <p>
+      Class and ID are two types of selectors under the simple selector category. In essence, they both exist to assist you with styling HTML elements based on how they are assigned, but there exist a distinct difference. ID selector is unique and Class selector is <em>not</em> unique.
+    </p>
+    <h2 class="selectors-h2">The ID selector is unique</h2>
+    <p>
+      The ID selector lets you define and apply style rules to a <strong>single</strong> element on a web page. This means that it cannot be used to style more than one element on the same web page. Let's take the example of a group of 10 students and 1 teacher in a crowded environment. We can identify the teacher almost immediately because they wear blue while the students are all wearing green uniform. The teacher can wear uniform too, however, they have been instructed to wear something different so that they can be easily recognised by their students - this teacher has been styled differently using the ID selector.
+    </p>
+    <p>
+      To use the ID selector, simply add a hash (#) character, followed by the ID of the element. For example:
+      <pre class="no-margin-padding"><code>```CSS
+        #teacher {
+          color: blue;
+        }
+
+      </code></pre>
+      This will look like this:
+      <pre class="no-margin-padding"><code>
+        <p id="teacher" class="no-margin-padding">Teacher in blue!</p>
+      </code></pre>
+    </p>
+    <h2 class="selectors-h2">The Class selector is not unique</h2>
+    <p>
+      In contrast to the ID selector, the Class selector can be used to apply style rules to <strong>multiple</strong> elements on a web page. Continuing with the above example, the 10 students, while different individuals, are all wearing green uniform which allows for them to be easily identified in a crowd by their teacher - these students have been styled using the Class selector.
+    </p>
+    <p>
+      To use the Class selector, write a period (.) character, followed by the class name. For example:
+      <pre class="no-margin-padding"><code>```CSS
+        .uniform {
+          color: green;
+        }
+
+      </code></pre>
+      This will look like this:
+      <pre class="no-margin-padding"><code>
+        <p class="uniform no-margin-padding">Students in green!</p>
+      </code></pre>
+    </p>
+    <h2 class="selectors-h2">ID has a unique browser function</h2>
+    <p>
+      Another difference between Class and ID is that the latter can be used to navigate to specific part of a web page. Depending on the circumstances, this can be an advantage over Class selector, such as when you would like an URL or button to redirect user to a specific section of your web page.
+    <p>
+      If you assign an ID to an element, you can send a link directly to that element using special URL. This is enabled due to the nature of ID being unique on a web page.
+    </p>
+    <p>
+      For example, the following URL that was applied to this page will take you back to the 'What are CSS Selectors?' section.
+    </p>
+      <pre class="no-margin-padding"><code>
+        --- URL go here ---
+      </code></pre>
+    </p>
+    <h2 class="selectors-h2">ID is used by JavaScript</h2>
+    <p>
+      ID is commonly used in JavaScript - which is another language in the programming world. For example, the function getElementByID lets you select a specific element on a web page and is working on the principle that ID is unique on that web page.
+    </p>
+    <h2 class="selectors-h2">You can use them both</h2>
+    <p>
+      It is not mandatory and there are no rules to specify that you should only use ID or Class selector. Continuing with our group of teacher and students, the teacher can wear green uniform too and they can also choose to wear a white hat, which once again, makes them unique and differentiate themselves from their students. In which case, our code will look like this:
+      <pre class="no-margin-padding"><code>```CSS
+        .uniform {
+          color: green;
+        }
+
+        #white-hat {
+          text-decoration: overline white 2px;
+        }
+
+      </code></pre>
+      This will look like this:
+      <pre class="no-margin-padding"><code>
+        <p class="uniform no-margin-padding" id="white-hat">Teacher in green with white hat!</p>
+      </code></pre>
+    </p>
+    <h2 class="selectors-h2">Conclusion</h2>
+    <p>
+      Class and ID are both widely used and effective CSS selectors and whether you use exclusively one type or a combination of both is your own preference. However, do keep in mind the above differences, and the fact that it is considered best practice to only use ID when you want to style a specific element on your web page, and Class to style multiple elements.
+    </p>
+    <p>
+      Hopefully you now understand better the differences between these two selectors and are on your way to become an expert developer. Happy CSS-ing!
+    </p>
+  </body>
+</html>
