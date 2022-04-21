@@ -1,50 +1,93 @@
 :root {
-  text-align: justify;
-  color: whitesmoke;
-  background-color: rosybrown;
-  /*background: url("../dev-academy/steps.jpg") center fixed no-repeat;*/
-  background-size: cover;
-  margin: 25px 20vmin 25px;
-  padding: 0px;
+  font-size: 10px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.nav-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0 10px 0 0;
 }
 
 body {
+  background-color: rgba(0, 0, 0, 0.5);
+/* background: url("../dev-academy/steps.jpg") center fixed no-repeat;
+  background-size: cover; */
+  display: block;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.75rem;
+  color: whitesmoke;
+  text-align: justify;
+  margin: 20px 20vw 20px;
+  padding: 0;
 }
 
 h1, h2 {
   color: wheat;
-  text-align: center;
 }
 
 h1 {
   font-family: 'Updock', cursive;
-  font-size: 5vw;
-  margin: 25px 12.5vw 25px;
+  font-size: 6vw;
+  text-align: center;
+  margin: 20px 12.5vw 20px;
 }
 
-.separation {
-  margin: 100px 0 25px;
+h2 {
+  font-size: 2.5rem;
 }
 
 a {
   text-decoration: none;
   color: gold;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 a:hover {
   text-decoration: underline; /*Underline links when hover*/
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#about {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px 50px 0;
+}
+
+#blog {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 50px;
+  text-align: left;
+}
+
+.date {
+  font-size: 1.25rem;
+}
+
+footer {
+  margin: 50px 0 20px;
+}
+
+/*Do not edit the below yet*/
 .no-margin-padding {
   margin: 0px;
   padding: 0px;
   white-space: pre-line;
-}
-
-#selectors-h1 {
-  font-family: cursive;
 }
 
 .selectors-h2 {
@@ -62,3 +105,4 @@ a:hover {
 #white-hat {
   text-decoration: overline white 2px;
 }
+
