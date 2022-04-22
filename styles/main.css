@@ -60,6 +60,10 @@ a:hover {
   justify-content: space-between;
 }
 
+.h1-blog-entry {
+  font-size: 5.5vmin;
+}
+
 #about {
   width: 50%;
   display: flex;
