@@ -23,11 +23,11 @@ body {
   font-size: 1.5rem;
   color: whitesmoke;
   text-align: justify;
-  margin: 20px 20vw 20px;
+  margin: 20px 5vw 20px;
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: wheat;
 }
 
