@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <title>CSS Selectors - Class vs. ID</title>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav-bar">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-bar">
       <ul class="nav-list">
         <li>
           <a href="https://louis-nguyen108.github.io/#home">Home</a>
@@ -24,62 +24,63 @@
         </li>
       </ul>
     </nav>
-    </header>
-    <h1 class="h1-blog-entry">JS Fundamentals</h1>
-    <h3>JavaScript and its relationship to HTML and CSS</h3>
-    <p>
-      In its simplest sense, when we see a web page, HTML is first responsible for the structure of content and the content itself, CSS will then apply various styles to the page to make it look nice and pretty, and finally JavaScript comes into play with its ability to enable the web page to be interactive such as when a button is clicked, the page returns a message or showing a photo etc.
-    </p>
-    <p>
-      So an analogy that perhaps closely describe their relationships in a similar fashion is that of a living person. HTML will be the skeleton and organs that make up the body, CSS will then be the skin that makes up the appearance, and finally JavaScript will be the soul that breathes life into the body to turn it into a living human being that can perform daily activity and interact with (or react to) the surroundings.
-    </p>
-    <h3>Control Flow and Loops</h3>
-      <p>
-        Control flow is the order that a computer program is read and executed by the computer. Computer program is made up of multiple lines of codes, hundreds or thousands or even more. In order to make sure the computer can read, understand and complete the task that a programmer wants it to do, the control flow specifies the direction that the computer will follow when it is presented with multiple lines of code. The most basic and general control flow is from top to bottom.
-      </p>
-      <p>
-        A school teacher (the computer) is assigned to a class and is instructed to teach 5 lessons in 5 different subjects: Math, Literature, History, Biology, Geography. In real life, the teacher would possibly take into consideration the content and length required for each lesson and plan their day accordingly. However, in the case of the computer and without any further instruction given, it will teach the 5 lessons in the exact order it was given, that is Math => Literature => History => Biology => Geography.
-      </p>
-      <p>
-        Loops is a special instruction that can alter the control flow. It tells the computer to cycle through a list of 'things' and complete a task (or multiple tasks) before moving on to the next task (think the next line of code).
-      </p>
-      <p>  
-        In the case of the teacher above, they had a great day with their students and wanted to give them a treat for being very engaging and co-operative. They decided to give their students a lollipop each. The class had 15 students, and the teacher would want to give out lollipops one by one; so in order to do that, the teacher 'loop' through each student and complete a task (give them the treat) one by one.
-      </p>
-    <h3>The DOM</h3>
-      <p>
-        The DOM (Document Object Model) is an API<sup>*</sup> that allows us to use JavaScript to make changes to the HTML, which in turn make changes and display the changes to the web page for the end user to see. It is commonly compared to a tree with multiple branches representing multiple elements within an HTML file.
-      </p>
-      <p>
-        The DOM works by representing the HTML document in a tree-like structure and and allows JavaScript to access and manipulate (make changes to) the content, structure, style as well as add in new interactive features that is executed when the end user interact with the web page.
-      </p>
-      <p>
-        The elements within the HTML is catagorised into nodes with hierarchy inside the DOM. Each node represent a part of the document with a parent-child relationship with other elements, depending on the structure of the HTML, all the way down to the last element.
-      </p>
-      <p>
-        We can interact with the DOM through the development tools in our web browser**. Another situation where we might interact with the DOM is through using JavaScript to access element(s), make changes to the HTML and display this whenever an user interacts with the page.
-      </p>
-      <p>
-        <i><small>* : API stands for Application Programming Interface, but you don't have to worry about this technical term and only needs to pay attention to the function of the DOM as described above.
-        <br>
-        ** : This change is only temporary and the page will return to its original state when we refresh because the HTML content that we see is only a local copy of the source document that only exists on our computer.
-        </small></i>
-      </p>
-    <h3>Arrays and Objects</h3>
-    <p>
-      Arrays and Objects are two different ways to store data in programming.
-    </p>
-      Arrays store data in an order and allow for accessing through the use of index number, which starts at 0. We want to use Arrays when the order is the most important factor for organising the data inside.
-    </p>
-    <p>
-      Objects store data in a group-like structure. It is best to use Objects when data labels are more important and is how we want to organise data. Accessing data in Objects is done through their properties. For example, the object Personal Details will have properties such as name, address, phone number etc.    
-    <h3>Functions</h3>
-      <p>
-        Functions are similar to cooking recipes. They contain a set of instructions (or tasks) that we want the computer to perform whenever the function is called.
-      </p>
-      <p>
-        They are particularly helpful thanks to their reusability, meaning that they can be defined and reused later when we know that we want to perform the same tasks again.
-      </p>  
-      <p>
-        Another advantage of functions is that they help keep our code DRY (Don't Repeat Yourself). This means less repetition or duplication in our code which can make the code harder to read or follow and more prone to error, resulting in bugs.
-      </p>
+  </header>
+  <h1 class="h1-blog-entry">JS Fundamentals</h1>
+  <h3>JavaScript and its relationship to HTML and CSS</h3>
+  <p>
+    In its simplest sense, when we see a web page, HTML is first responsible for the structure of content and the content itself, CSS will then apply various styles to the page to make it look nice and pretty, and finally JavaScript comes into play with its ability to enable the web page to be interactive such as when a button is clicked, the page returns a message or showing a photo etc.
+  </p>
+  <p>
+    So an analogy that perhaps closely describe their relationships in a similar fashion is that of a living person. HTML will be the skeleton and organs that make up the body, CSS will then be the skin that makes up the appearance, and finally JavaScript will be the soul that breathes life into the body to turn it into a living human being that can perform daily activity and interact with (or react to) the surroundings.
+  </p>
+  <h3>Control Flow and Loops</h3>
+  <p>
+    Control flow is the order that a computer program is read and executed by the computer. Computer program is made up of multiple lines of codes, hundreds or thousands or even more. In order to make sure the computer can read, understand and complete the task that a programmer wants it to do, the control flow specifies the direction that the computer will follow when it is presented with multiple lines of code. The most basic and general control flow is from top to bottom.
+  </p>
+  <p>
+    A school teacher (the computer) is assigned to a class and is instructed to teach 5 lessons in 5 different subjects: Math, Literature, History, Biology, Geography. In real life, the teacher would possibly take into consideration the content and length required for each lesson and plan their day accordingly. However, in the case of the computer and without any further instruction given, it will teach the 5 lessons in the exact order it was given, that is Math => Literature => History => Biology => Geography.
+  </p>
+  <p>
+    Loops is a special instruction that can alter the control flow. It tells the computer to cycle through a list of 'things' and complete a task (or multiple tasks) before moving on to the next task (think the next line of code).
+  </p>
+  <p>  
+    In the case of the teacher above, they had a great day with their students and wanted to give them a treat for being very engaging and co-operative. They decided to give their students a lollipop each. The class had 15 students, and the teacher would want to give out lollipops one by one; so in order to do that, the teacher 'loop' through each student and complete a task (give them the treat) one by one.
+  </p>
+  <h3>The DOM</h3>
+  <p>
+    The DOM (Document Object Model) is an API<sup>*</sup> that allows us to use JavaScript to make changes to the HTML, which in turn make changes and display the changes to the web page for the end user to see. It is commonly compared to a tree with multiple branches representing multiple elements within an HTML file.
+  </p>
+  <p>
+    The DOM works by representing the HTML document in a tree-like structure and and allows JavaScript to access and manipulate (make changes to) the content, structure, style as well as add in new interactive features that is executed when the end user interact with the web page.
+  </p>
+  <p>
+    The elements within the HTML is catagorised into nodes with hierarchy inside the DOM. Each node represent a part of the document with a parent-child relationship with other elements, depending on the structure of the HTML, all the way down to the last element.
+  </p>
+  <p>
+    We can interact with the DOM through the development tools in our web browser**. Another situation where we might interact with the DOM is through using JavaScript to access element(s), make changes to the HTML and display this whenever an user interacts with the page.
+  </p>
+  <p>
+    <i><small>* : API stands for Application Programming Interface, but you don't have to worry about this technical term and only needs to pay attention to the function of the DOM as described above.
+    <br>
+    ** : This change is only temporary and the page will return to its original state when we refresh because the HTML content that we see is only a local copy of the source document that only exists on our computer.
+    </small></i>
+  </p>
+  <h3>Arrays and Objects</h3>
+  <p>
+    Arrays and Objects are two different ways to store data in programming.
+  </p>
+    Arrays store data in an order and allow for accessing through the use of index number, which starts at 0. We want to use Arrays when the order is the most important factor for organising the data inside.
+  </p>
+  <p>
+    Objects store data in a group-like structure. It is best to use Objects when data labels are more important and is how we want to organise data. Accessing data in Objects is done through their properties. For example, the object Personal Details will have properties such as name, address, phone number etc.    
+  <h3>Functions</h3>
+  <p>
+    Functions are similar to cooking recipes. They contain a set of instructions (or tasks) that we want the computer to perform whenever the function is called.
+  </p>
+  <p>
+    They are particularly helpful thanks to their reusability, meaning that they can be defined and reused later when we know that we want to perform the same tasks again.
+  </p>  
+  <p>
+    Another advantage of functions is that they help keep our code DRY (Don't Repeat Yourself). This means less repetition or duplication in our code which can make the code harder to read or follow and more prone to error, resulting in bugs.
+  </p>
+</body>
