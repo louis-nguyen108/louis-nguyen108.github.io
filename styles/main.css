@@ -57,6 +57,14 @@ code {
   background-color: cornflowerblue;
   color: black;
 }
+.mindset-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35% auto;
+  height: 35% auto;
+}
+
 .content {
   display: flex;
   flex-direction: row;
