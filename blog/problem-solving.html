@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <title>Problem Solving</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="https://louis-nguyen108.github.io/#home">Home</a></li>
+        <li><a href="https://louis-nguyen108.github.io/#about">About Me</a></li>
+        <li><a href="https://louis-nguyen108.github.io/#blog">Blog</a></li>
+        <li><a href="https://louis-nguyen108.github.io/#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <h1>Problem Solving</h1>
+      <h2>A time when I was blocked on a simple problem</h2>
+      <p>
+        This would definitely be the FizzBuzz challenge.
+      </p>
+      <p>
+        For this challenge, the goal was to create a function that takes in a number and returns 'Fizz' when number is multiple of 3, 'Buzz' when number is multiple of 5 and 'FizzBuzz' when number is multiple of both 3 and 5.
+      </p>
+      <p>
+        I started out ok with some pseudocode, then I moved on to writing the actual code. I managed to pass the first few tests and was able to somehow get the code to return 'Fizz' and 'Buzz' when the conditions were met. However, I hit a road block with the 'FizzBuzz' condition and couldn't figure out a way to get pass. I read the error messages, I tried rearranged my code in different ways but kept failing, sometimes even failing some of the previous tests that I had already passed. This made me feel quite frustrated and I therefore totally forgot about programmer's best friend  - aka 'console.logging' -  as well as learner's best friend - aka Google. I did not ask for help either because I saw that a lot of other learners have already moved on way ahead of me which I interpreted as that the problem must be solvable on our own. It was only until I became too annoyed at myself for being stuck for so long without being able to resolve the problem that I turned to Discord and looked at some of the questions asked previously by other learners to get some hints. In the end, I still managed to complete the challenge within the time box suggestion.
+      </p>
+      <p>
+        Having said that, I felt that I could have done better if I treated myself better for the effort and progress that I had made until the point where I looked up for hints. Althought I do not regret what happend (and I could not change it anyway), I have learned my lesson. I think that part of this was due to the fact that I jumped straight into the FizzBuzz kata after completing the previous katas and other learning materials fairly easily, without giving myself a long enough break/reflection time to recharge. This has led to me forgetting about other problem solving techniques that I could have tried before reaching out.
+      </p>
+      <h2>A time when I elegantly solved a problem</h2>
+      <p>
+        I don't think that I have solved a problem elegantly (if any) but any instances where I solved a problem on my own without reading Discord for hints or reaching out for help is a win in my book. One such instance might be the Manipulating JavaScript Objects Kata.
+      </p>
+      <p>
+        Similar to above, it was pretty smooth sailing for me at the start. However, I then bumped into an obstacle where I was required to add a <code>ben</code> property which should be an object with a key <code>name</code> and the value "Ben" to a property <code>children</code> of the main object <code>terah</code>. Sounds confusing enough? Yea because I felt the same when I first attempted this challenge. So if I were to describe their relationship it would be like this:
+        <ul>
+          <li><code>terah --- the mother and main object</code></li>
+          <li><code>children --- a property of terah</code></li>
+          <li><code>ben --- a proerty of children and is another object </code></li>
+          <li><code>name: "Ben" --- a property of object ben that has the value "Ben"</code></li>
+        </ul>
+      </p>
+      <p>
+        So firstly what I did was try a few different combinations that I could think of based on previous learning and knowledge to no avail, not to mention some even made me failed previous tests (which I had already passed at this point).
+      </p>
+      <p>
+        At this moment, I did not see any use for pseudocode or rubber ducky, asking peers or coaches for help when I was still well within my time box would mean giving up too easily, reading error messages and trying something as per above did not work and I'd forgotten about good friend console.logging for some reason. So I turned to the omniscient and omnipotent (well almost) thing known to man - Google. After a quick search and a few visits to a couple of sites, I had a light bulb moment and immediately understood the syntax error in my code. So I went back and made some edits based on my understanding of how it should be written and hit the <code>run</code> button to test and VOILA!. The rest of the challenge was once again smooth sailing and I finished the challenge with around half the time box suggestion remaining.
+      </p>
+    </div>
+    <div>
+      <h2>My Confidence Level</h2>
+      <table>
+        <tr>
+          <th>Technique</th>
+          <th>Confidence Level</th>
+          <th>Comments</th>
+        </tr>
+        <tr>
+          <td>Pseudocode</td>
+          <td>2.5/5</td>
+          <td>I feel only half confident here. This is mainly due to the fact that a lot of the time when I look at a challenge, I don't know where to begin or can't really map out the steps to achieve the goal that the challenge asked of me. Even with writing down the pseudocode, I still feel that the pseudocode doesn't represent something that I can easily translate to code and therefore figure out the right methods or functions etc. to use</td>
+        </tr>
+        <tr>
+          <td>Trying something</td>
+          <td>3.5/5</td>
+          <td>I feel decently confident with this. I am good at trying and breaking things #laugh-emoji</td>
+        </tr>
+        <tr>
+          <td>Rubber ducky method</td>
+          <td>2/5</td>
+          <td>I haven't practiced this too much. I think that the challenge I faced with trying this method is similar to pseudocode. I think that once I'm able to get better at the pseudocode technique, I should be able to talk and "walk" myself through the steps in my code which hopefully will lead to more light bulb moments</td>
+        </tr>
+        <tr>
+          <td>Reading error messages</td>
+          <td>4/5</td>
+          <td>I feel really confident with this technique. I think this is in part thanks to the fact that so far the challenges all have very clear error messages designed.</td>
+        </tr>
+        <tr>
+          <td>Console.logging</td>
+          <td>3.5/5</td>
+          <td>I feel above average confident with this. I would like to give credits to Jason Aricheta from Kotare 2022 cohort, he has told me that that console.logging is widely used for bug fixxing in JavaScript and since then, I have been incorporating this into my code a lot more. This has helped tremendously, allowing me to follow the steps in my code and give me a clearer picture into the results of my code at any given stage. </td>
+        </tr>
+        <tr>
+          <td>Googling</td>
+          <td>4/5</td>
+          <td>Definitely something I feel pretty confident at. Although sometimes reading the answers from googling and apply it to my code requires a lot more than just</td>
+        </tr
+        ><tr>
+          <td>Asking your peers for help</td>
+          <td>3.5/5</td>
+          <td>I am definitely not afraid to raise my hands and ask around when needed although the frequency is not as much hence this score.</td>
+        </tr>
+        <tr>
+          <td>Asking coaches for help</td>
+          <td>2/5</td>
+          <td>This score is probably not a true reflection of my confidence level but rather due to the fact that I have not had many situations where I have to ask for the help of coaches. Usually one or many of the other methods have helped me overcome all the challenges so far.</td>
+        </tr>
+        <tr>
+          <td>Improving your process with reflection</td>
+          <td>3/5</td>
+          <td>I am not sure how to rate myself on this. Although I notice that on a few occasions when I revisited and reviewed my code, I was able to improve it a bit. So maybe that is what this technique means?!!</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
