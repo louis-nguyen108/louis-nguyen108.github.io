@@ -52,6 +52,11 @@ a.blog {
   font-size: 2rem;
 }
 
+code {
+  font-size: 1.3rem;
+  background-color: cornflowerblue;
+  color: black;
+}
 .content {
   display: flex;
   flex-direction: row;
@@ -87,6 +92,17 @@ footer {
 #contact {
   display: flex;
   flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px
 }
 
 /*Do not edit the below yet*/
